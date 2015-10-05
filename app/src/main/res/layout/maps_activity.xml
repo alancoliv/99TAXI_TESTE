@@ -1,0 +1,25 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <ImageButton
+        android:id="@+id/image_gps"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_action_autorenew"
+        android:background="@drawable/update_selector"
+        android:layout_marginRight="59dp"
+        android:elevation="3dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="right" />
+</FrameLayout>
